@@ -8,7 +8,6 @@ import {
     TableRow, 
 } from "../ui/table";
 import Link from "next/link";
-import { Post } from "@/types/posts";
 import posts from "@/data/posts";
 
 interface PostsTableProps {
@@ -54,7 +53,7 @@ const PostsTable = ({ limit, title }: PostsTableProps) => {
                     </TableRow>
                 ))}
             </TableBody>
-        </Table>
+        </Table>s
     </div> 
     );
 }
