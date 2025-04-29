@@ -55,7 +55,6 @@ const PostsTable = ({ limit, title }: PostsTableProps) => {
                 ))}
             </TableBody>
         </Table>
-        suppressHydrationWarning={true}
     </div> 
     );
 }
